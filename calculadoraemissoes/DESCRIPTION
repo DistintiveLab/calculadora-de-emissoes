@@ -1,0 +1,19 @@
+Package: calculadoraemissoes
+Type: Package
+Title: Calculadora de Emissoes de Gases de Efeito Estufa do DF
+Version: 0.1.0
+Depends: R (>= 3.5.0)
+Authors@R: person("Rodrigo", email = "rodrigo@example.com", role = c("aut", "cre"))
+Description: Replicacao em R da Calculadora de Emissoes de GEE de acoes
+    governamentais do Distrito Federal (IDE-DF/IPEDF). Parametros e equacoes
+    extraidos do Apendice de Notas Metodologicas do IPEDF (base 2021). Os dados
+    de entrada (PDAD, DETRAN, ANP, SLU, NEOENERGIA) foram obtidos majoritariamente
+    via Lei de Acesso a Informacao (LAI) e devem ser atualizados conforme novas
+    disponibilizacoes - ver data-raw/.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

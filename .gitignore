@@ -1,0 +1,19 @@
+# Artefatos de build/check do R
+*.tar.gz
+*.Rcheck/
+.Rhistory
+.RData
+.Rproj.user/
+
+# Pacote: caches do R
+calculadoraemissoes/src/
+*.o
+*.so
+*.dll
+
+# Arquivo pesado (291 MB) — não versionar
+relatorios_finais_PDTT_PMU.rar
+
+# Sistema
+.DS_Store
+Thumbs.db
